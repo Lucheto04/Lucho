@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+    height: 100vh;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.my-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#inputSearch {
+    margin-right: 20%;
+}
+.video-principal{
+    width: 74%;
+    float: left;
+    background-color: blanchedalmond;
+}
+.video-principal h3 {
+    margin-left: 20%;
+}
+.info-video {
+    height: 800px;
+    margin: 2rem;
+    padding: 2rem;
+    float: right;
+    background-color: blanchedalmond;
+}
+.info-chibituber {
+    display: flex;
+    justify-content: space-between;
+}
+.comentarios {
+    height: 30%;
+}
+.carrusel {
+    float: left;
+}
